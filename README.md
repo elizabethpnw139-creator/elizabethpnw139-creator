@@ -13,7 +13,7 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 17.3h | 24h | 24h | ~4,084h* |
+| Screen time (Linux) | 18.3h | 24h | 24h | ~4,084h* |
 | User AI session hours | 0.0h | 0.0h | 0.0h | 0.0h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
 | AI concurrency hours | 0.0h | 0.0h | 0.0h | 0.0h |
@@ -42,16 +42,16 @@ _Model savings are modest because ~0% of tokens are cache reads, where price dif
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 336 | 403 | 135K | 30.4M | $55.92 | $411.69 | $0.00 |
 | claude-opus-4-5 | 126 | 62 | 77K | 7.5M | $17.13 | $102.18 | $0.00 |
-| gpt-5.3-codex | 292 | 1.3M | 83K | 14.4M | $13.27 | $27.10 | $35.18 |
+| gpt-5.3-codex | 310 | 1.4M | 89K | 15.2M | $13.97 | $28.53 | $37.02 |
 | claude-sonnet-4-0 | 418 | 827 | 174K | 26.6M | $10.61 | $72.07 | $42.48 |
 | claude-sonnet-4-6 | 147 | 166 | 45K | 8.9M | $3.36 | $24.16 | $13.47 |
 | claude-opus-4-0 | 52 | 80 | 20K | 1.1M | $3.22 | $15.50 | $0.00 |
 | claude-sonnet-4-5 | 7 | 23 | 849 | 571K | $0.18 | $1.54 | $0.74 |
-| **Total** | **1,378** | **1.3M** | **537K** | **89.8M** | **$103.69** | **$654.25** | **$91.87** |
+| **Total** | **1,396** | **1.4M** | **543K** | **90.6M** | **$104.39** | **$655.68** | **$93.71** |
 
-_126.6M total tokens processed. 91.4% cache hit rate._
+_127.4M total tokens processed. 91.4% cache hit rate._
 
-_$746.12 total saved ($654.25 caching + $91.87 model routing vs all-Opus)._
+_$749.39 total saved ($655.68 caching + $93.71 model routing vs all-Opus)._
 
 _Model savings are modest because ~91.4% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
@@ -66,5 +66,5 @@ _Model savings are modest because ~91.4% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-03-19 20:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-03-19 21:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
