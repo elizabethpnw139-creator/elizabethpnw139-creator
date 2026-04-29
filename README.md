@@ -16,7 +16,7 @@
 | Screen time (Linux) | 5.7h | 34.3h | 128.9h | ~4,267h* |
 | User AI session hours | 4.6h | 10.1h | 12.9h | 34.2h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 5.6h | 13.9h | 17.6h | 68.3h |
+| AI concurrency hours | 5.5h | 13.9h | 17.6h | 68.3h |
 | Interactive sessions | 2 | 5 | 7 | 67 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
@@ -78,5 +78,5 @@ _Model savings are modest because ~92.4% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-04-29 18:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-04-29 20:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
