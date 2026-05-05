@@ -13,10 +13,10 @@
 
 | Metric | 24h | 7 Days | 28 Days | 365 Days |
 | --- | ---: | ---: | ---: | ---: |
-| Screen time (Linux) | 17.7h | 32.3h | 155.5h | ~4,552h* |
-| User AI session hours | 3.2h | 12.5h | 20.8h | 42.0h |
+| Screen time (Linux) | 18h | 32.7h | 155.8h | ~4,552h* |
+| User AI session hours | 2.6h | 12.4h | 20.8h | 42.0h |
 | AI worker hours | 0.0h | 0.0h | 0.0h | 0.0h |
-| AI concurrency hours | 21.5h | 34.2h | 46.2h | 96.8h |
+| AI concurrency hours | 20.6h | 34.1h | 46.2h | 96.8h |
 | Interactive sessions | 1 | 11 | 16 | 76 |
 | Worker sessions | 0 | 0 | 0 | 0 |
 
@@ -30,19 +30,19 @@ _User AI session hours measured from AI message timestamps (reading, thinking, t
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | claude-opus-4-6 | 192 | 249 | 136K | 12.8M | $77.84 | $173.68 | $0.00 |
 | claude-opus-4-7 | 211 | 252 | 132K | 25.6M | $62.26 | $345.79 | $0.00 |
-| gpt-5.5 | 452 | 3.2M | 197K | 60.1M | $18.04 | $162.49 | $123.12 |
+| gpt-5.5 | 459 | 3.5M | 198K | 61.6M | $19.09 | $166.57 | $128.05 |
 | deepseek-v4-pro | 155 | 522K | 93K | 13.1M | $7.37 | $35.63 | $27.71 |
 | gpt-5.3-codex | 111 | 717K | 16K | 10.0M | $6.95 | $18.79 | $18.83 |
 | minimax-m2.5-free | 54 | 1.4M | 15K | 2.5M | $6.14 | $0.00 | $26.92 |
 | claude-sonnet-4 | 76 | 77 | 15K | 8.9M | $4.87 | $24.23 | $11.71 |
 | gpt-5.4 | 16 | 72K | 1K | 785K | $0.43 | $1.47 | $1.69 |
-| **Total** | **1,267** | **6.0M** | **608K** | **134.1M** | **$183.90** | **$762.08** | **$209.98** |
+| **Total** | **1,274** | **6.2M** | **609K** | **135.6M** | **$184.95** | **$766.15** | **$214.91** |
 
-_144.8M total tokens processed. 92.6% cache hit rate._
+_146.5M total tokens processed. 92.5% cache hit rate._
 
-_$972.06 total saved ($762.08 caching + $209.98 model routing vs all-Opus)._
+_$981.06 total saved ($766.15 caching + $214.91 model routing vs all-Opus)._
 
-_Model savings are modest because ~92.6% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~92.5% of tokens are cache reads, where price differences between models are small._
 
 ## AI Model Usage (all time)
 
@@ -51,7 +51,7 @@ _Model savings are modest because ~92.6% of tokens are cache reads, where price 
 | claude-opus-4-6 | 848 | 1K | 383K | 76.3M | $143.32 | $1,031.19 | $0.00 |
 | claude-opus-4-7 | 212 | 252 | 132K | 25.6M | $48.34 | $345.79 | $0.00 |
 | gpt-5.3-codex | 712 | 4.0M | 185K | 48.6M | $42.44 | $91.21 | $105.57 |
-| gpt-5.5 | 452 | 3.2M | 197K | 60.1M | $30.76 | $162.49 | $123.12 |
+| gpt-5.5 | 459 | 3.5M | 198K | 61.6M | $32.00 | $166.57 | $128.05 |
 | claude-opus-4-5 | 126 | 62 | 77K | 7.5M | $17.13 | $102.18 | $0.00 |
 | claude-sonnet-4-0 | 418 | 827 | 174K | 26.6M | $10.61 | $72.07 | $42.48 |
 | deepseek-v4-pro | 156 | 522K | 93K | 13.1M | $6.91 | $35.63 | $27.71 |
@@ -61,13 +61,13 @@ _Model savings are modest because ~92.6% of tokens are cache reads, where price 
 | claude-sonnet-4 | 78 | 77 | 15K | 8.9M | $2.92 | $24.23 | $11.71 |
 | gpt-5.4 | 16 | 72K | 1K | 785K | $0.68 | $1.47 | $1.69 |
 | claude-sonnet-4-5 | 7 | 23 | 849 | 571K | $0.18 | $1.54 | $0.74 |
-| **Total** | **3,405** | **8.6M** | **1.3M** | **289.8M** | **$316.16** | **$1,937.49** | **$351.75** |
+| **Total** | **3,412** | **8.8M** | **1.3M** | **291.3M** | **$317.40** | **$1,941.56** | **$356.67** |
 
-_347.2M total tokens processed. 92.1% cache hit rate._
+_348.9M total tokens processed. 92% cache hit rate._
 
-_$2,289.23 total saved ($1,937.49 caching + $351.75 model routing vs all-Opus)._
+_$2,298.23 total saved ($1,941.56 caching + $356.67 model routing vs all-Opus)._
 
-_Model savings are modest because ~92.1% of tokens are cache reads, where price differences between models are small._
+_Model savings are modest because ~92% of tokens are cache reads, where price differences between models are small._
 <!-- STATS-END -->
 
 ## Projects
@@ -80,5 +80,5 @@ _Model savings are modest because ~92.1% of tokens are cache reads, where price 
 ---
 
 <!-- UPDATED-START -->
-_Stats auto-updated 2026-05-05 19:00 UTC by [aidevops](https://aidevops.sh) pulse._
+_Stats auto-updated 2026-05-05 21:00 UTC by [aidevops](https://aidevops.sh) pulse._
 <!-- UPDATED-END -->
